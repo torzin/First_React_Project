@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,77 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #282D35;
+  background-image: url(reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 100%;
+  background-size: 200px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Content{
+  margin: 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-right: 20px;
+
+  background-color: #21222A;
+}
+
+nav > div{
+  display: flex;
+}
+
+.react-logo{
+  width: 100px;
+}
+
+.react-logo-text{
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: #61DAFB;
+}
+
+.project-name{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  color: #FFFF;
+}
+
+
+main{
+  padding-left: 25px;
+}
+
+.title{
+  font-family: 'Inter', sans-serif;
+  font-size: 60px;
+  color: #FFFF;
+  margin-top: 100px;
+}
+
+
+.facts-list{
+  list-style: none;
+}
+
+.facts-list li{
+  font-weight: 500  ;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #FFFF;
+}
+.facts-list li::before{
+  content: url(./Ellipse\ 1.png);
+  color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
